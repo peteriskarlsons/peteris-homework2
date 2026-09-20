@@ -1,0 +1,1660 @@
+{
+  "schemaVersion": "1.0",
+  "caseId": "DPI-HT-01",
+  "student": {
+    "id": "pk25053",
+    "name": "Pēteris"
+  },
+  "evidence": [
+    {
+      "id": "bank",
+      "summary": "E01 Bank Export August.csv and post-takeover bank confirmation"
+    },
+    {
+      "id": "contracts",
+      "summary": "E02 Contracts, Returns and Angry Customers"
+    },
+    {
+      "id": "purchases",
+      "summary": "E03 Purchases Invoices and Goods Received"
+    },
+    {
+      "id": "warehouse",
+      "summary": "E04 Warehouse Count Marta Notes"
+    },
+    {
+      "id": "payroll",
+      "summary": "E05 Payroll Bonuses Contractors"
+    },
+    {
+      "id": "assets",
+      "summary": "E06 Assets Repairs Leases"
+    },
+    {
+      "id": "loans",
+      "summary": "E07 Loans, Owner Card and Legal Problems"
+    },
+    {
+      "id": "later",
+      "summary": "E08 Evidence Received After Takeover"
+    },
+    {
+      "id": "crm",
+      "summary": "E09 CRM Export"
+    },
+    {
+      "id": "messages",
+      "summary": "E10 Email and WhatsApp Dump"
+    },
+    {
+      "id": "management",
+      "summary": "E11 Management P&L workbook"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D001",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of NorthStar receipt.",
+      "answer": "€180,000 collection of accepted NorthStar invoice; reduce receivables.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D002",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Freedom receipt 1.",
+      "answer": "€142,000 partial Freedom collection; €58,000 gross receivable remains.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D003",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Phoenix receipt.",
+      "answer": "€70,000 Phoenix collection; €30,000 gross receivable remains.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D004",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Liberty receipt.",
+      "answer": "€95,000 Liberty collection; €25,000 gross receivable remains.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D005",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Opening receivable receipt.",
+      "answer": "€35,000 settlement of opening receivable, not current-period revenue.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D006",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Finally Single web receipts.",
+      "answer": "€250,000 Finally Single web collection; €20,000 platform receivable remains.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D007",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Never Call Back web receipts.",
+      "answer": "€37,000 Never Call Back web collection; €53,000 gross receivable remains, including R-17.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D008",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of New Beginnings deposit.",
+      "answer": "€60,000 New Beginnings September deposit: contract liability.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D009",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Fresh Freedom deposit.",
+      "answer": "€30,000 Fresh Freedom September deposit: contract liability.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D010",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Box supplier payment.",
+      "answer": "€105,000 BoxWorks payment reduces supplier balance; €25,000 remains unpaid.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D011",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Glass supplier payment.",
+      "answer": "€92,000 Glass payment reduces supplier balance; €28,000 remains unpaid.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D012",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Print supplier payment.",
+      "answer": "€81,000 Print payment reduces supplier balance; €14,000 remains unpaid.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D013",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Event supplier payment.",
+      "answer": "€100,000 Event supplier payment reduces current and opening supplier payables; the implied opening supplier payable is €45,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D014",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of January payroll.",
+      "answer": "Only an aggregate €231,000 January–August payroll payment is evidenced; do not invent a monthly allocation.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D015",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of February payroll.",
+      "answer": "Only an aggregate €231,000 January–August payroll payment is evidenced; do not invent a monthly allocation.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D016",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of March payroll.",
+      "answer": "Only an aggregate €231,000 January–August payroll payment is evidenced; do not invent a monthly allocation.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D017",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of April payroll.",
+      "answer": "Only an aggregate €231,000 January–August payroll payment is evidenced; do not invent a monthly allocation.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D018",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of May payroll.",
+      "answer": "Only an aggregate €231,000 January–August payroll payment is evidenced; do not invent a monthly allocation.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D019",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of June payroll.",
+      "answer": "Only an aggregate €231,000 January–August payroll payment is evidenced; do not invent a monthly allocation.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D020",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of July payroll.",
+      "answer": "Only an aggregate €231,000 January–August payroll payment is evidenced; do not invent a monthly allocation.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D021",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of August payroll.",
+      "answer": "Only an aggregate €231,000 January–August payroll payment is evidenced; do not invent a monthly allocation.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D022",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Rent payments.",
+      "answer": "Rent expense and operating cash outflow of €48,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D023",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Meta and influencer payments.",
+      "answer": "Marketing expense and operating cash outflow of €55,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D024",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Software payments.",
+      "answer": "Software expense and operating cash outflow of €16,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D025",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Utilities payments.",
+      "answer": "Utilities expense and operating cash outflow of €12,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D026",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Repair transfer.",
+      "answer": "€10,000 repair expense, not PPE.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D027",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Packaging machine payment.",
+      "answer": "€60,000 PPE addition and investing cash outflow.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D028",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Photo booth payment.",
+      "answer": "€20,000 PPE addition and investing cash outflow.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D029",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Loan receipt.",
+      "answer": "€50,000 bank borrowing, not income.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D030",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Loan repayments.",
+      "answer": "€19,000 loan-principal repayment.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D031",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Interest payments.",
+      "answer": "€10,000 interest cash payment; total interest expense is €12,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D032",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Villa deposit.",
+      "answer": "€70,000 owner distribution, not a business expense.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D033",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Owner card spending.",
+      "answer": "€40,000 owner distribution, not a business expense.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D034",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Insurance movement.",
+      "answer": "No insurance movement can be recorded: there is no policy, payment, prepayment, or consumption evidence.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D035",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Water-damaged stock.",
+      "answer": "Write down €22,000 water-damaged stock to nil; disclose the €2,000 disposal estimate.",
+      "evidence": [
+        "E04 Warehouse Count Marta Notes",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D036",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Customer insolvency.",
+      "answer": "Recognize €18,000 specific bad-debt allowance for R-17.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D037",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Former employee claim.",
+      "answer": "Recognize €25,000 legal provision.",
+      "evidence": [
+        "E07 Loans, Owner Card and Legal Problems",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D038",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Purchase total.",
+      "answer": "Purchases are €459,000; goods were received before year end.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D039",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Cash collections total.",
+      "answer": "Trade-receivable collections total €809,000; customer cash including deposits is €899,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D040",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Closing bank balance.",
+      "answer": "Closing bank cash is €60,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D041",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify September customer deposits.",
+      "answer": "Classify €90,000 September deposits as contract liabilities, not revenue.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Classify €90,000 September deposits as contract liabilities, not revenue.",
+      "independentChallenge": "Classify €90,000 September deposits as contract liabilities, not revenue.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €90,000 September deposits as contract liabilities, not revenue.",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D042",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify New bank borrowing.",
+      "answer": "Classify €50,000 new advance as loan liability.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Classify €50,000 new advance as loan liability.",
+      "independentChallenge": "Classify €50,000 new advance as loan liability.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €50,000 new advance as loan liability.",
+      "statementEffect": {
+        "profit": -50000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 50000,
+        "equity": -50000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D043",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Packaging machine.",
+      "answer": "Capitalize Pack-O-Matic at €60,000.",
+      "evidence": [
+        "E03 Purchases Invoices and Goods Received",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "high",
+      "aiProposal": "Capitalize Pack-O-Matic at €60,000.",
+      "independentChallenge": "Capitalize Pack-O-Matic at €60,000.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Capitalize Pack-O-Matic at €60,000.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -60000,
+        "assets": 60000,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D044",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Photo booth.",
+      "answer": "Capitalize Regret Photo Booth at €20,000.",
+      "evidence": [
+        "E03 Purchases Invoices and Goods Received",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "high",
+      "aiProposal": "Capitalize Regret Photo Booth at €20,000.",
+      "independentChallenge": "Capitalize Regret Photo Booth at €20,000.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Capitalize Regret Photo Booth at €20,000.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -20000,
+        "assets": 20000,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D045",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Machine belt and calibration.",
+      "answer": "Expense €10,000 belt and calibration work as repairs.",
+      "evidence": [
+        "E03 Purchases Invoices and Goods Received",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "high",
+      "aiProposal": "Expense €10,000 belt and calibration work as repairs.",
+      "independentChallenge": "Expense €10,000 belt and calibration work as repairs.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Expense €10,000 belt and calibration work as repairs.",
+      "statementEffect": {
+        "profit": -10000,
+        "cash": -10000,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -10000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D046",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Owner villa deposit.",
+      "answer": "Classify €70,000 villa payment as owner distribution.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Classify €70,000 villa payment as owner distribution.",
+      "independentChallenge": "Classify €70,000 villa payment as owner distribution.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €70,000 villa payment as owner distribution.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -70000,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -70000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D047",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Owner card spending.",
+      "answer": "Classify €40,000 owner-card spending as owner distribution.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Classify €40,000 owner-card spending as owner distribution.",
+      "independentChallenge": "Classify €40,000 owner-card spending as owner distribution.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €40,000 owner-card spending as owner distribution.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -40000,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -40000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D048",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Physical product materials consumed.",
+      "answer": "Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
+      "evidence": [
+        "E04 Warehouse Count Marta Notes",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
+      "independentChallenge": "Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D049",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Event staff payroll.",
+      "answer": "Classify €80,000 event delivery payroll as direct service COGS.",
+      "evidence": [
+        "E05 Payroll Bonuses Contractors",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high",
+      "aiProposal": "Classify €80,000 event delivery payroll as direct service COGS.",
+      "independentChallenge": "Classify €80,000 event delivery payroll as direct service COGS.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €80,000 event delivery payroll as direct service COGS.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D050",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Sales team payroll.",
+      "answer": "Classify €72,000 sales payroll as selling expense.",
+      "evidence": [
+        "E05 Payroll Bonuses Contractors",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D051",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Office payroll.",
+      "answer": "Classify €96,000 office payroll as administrative expense.",
+      "evidence": [
+        "E05 Payroll Bonuses Contractors",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D052",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Rent.",
+      "answer": "Classify rent as operating expense.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D053",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Marketing.",
+      "answer": "Classify marketing as operating expense.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D054",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Software.",
+      "answer": "Classify software as operating expense.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D055",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Utilities.",
+      "answer": "Classify utilities as operating expense.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D056",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Depreciation.",
+      "answer": "Recognize €24,000 depreciation expense and accumulated depreciation.",
+      "evidence": [
+        "E03 Purchases Invoices and Goods Received",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Recognize €24,000 depreciation expense and accumulated depreciation.",
+      "independentChallenge": "Recognize €24,000 depreciation expense and accumulated depreciation.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €24,000 depreciation expense and accumulated depreciation.",
+      "statementEffect": {
+        "profit": -24000,
+        "cash": 0,
+        "assets": -24000,
+        "liabilities": 0,
+        "equity": -24000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D057",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Bad receivable.",
+      "answer": "Recognize €18,000 bad-debt expense/allowance.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €18,000 bad-debt expense/allowance.",
+      "independentChallenge": "Recognize €18,000 bad-debt expense/allowance.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €18,000 bad-debt expense/allowance.",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D058",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Damaged stock.",
+      "answer": "Recognize €22,000 inventory write-down.",
+      "evidence": [
+        "E04 Warehouse Count Marta Notes",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €22,000 inventory write-down.",
+      "independentChallenge": "Recognize €22,000 inventory write-down.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €22,000 inventory write-down.",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D059",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Probable legal claim.",
+      "answer": "Recognize €25,000 legal provision.",
+      "evidence": [
+        "E07 Loans, Owner Card and Legal Problems",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €25,000 legal provision.",
+      "independentChallenge": "Recognize €25,000 legal provision.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €25,000 legal provision.",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D060",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Insurance consumed.",
+      "answer": "No insurance expense is supportable from the supplied evidence.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D061",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid interest.",
+      "answer": "Recognize €2,000 interest payable.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D062",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid payroll.",
+      "answer": "Recognize €32,000 payroll payable.",
+      "evidence": [
+        "E05 Payroll Bonuses Contractors",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D063",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid suppliers.",
+      "answer": "Recognize €126,000 supplier payables, supported by an implied €45,000 opening payable.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D064",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered NorthStar contract.",
+      "answer": "Recognize €180,000 NorthStar revenue on delivery and acceptance.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €180,000 NorthStar revenue on delivery and acceptance.",
+      "independentChallenge": "Recognize €180,000 NorthStar revenue on delivery and acceptance.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €180,000 NorthStar revenue on delivery and acceptance.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D065",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered Freedom contract.",
+      "answer": "Recognize €200,000 Freedom revenue on delivery and acceptance.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €200,000 Freedom revenue on delivery and acceptance.",
+      "independentChallenge": "Recognize €200,000 Freedom revenue on delivery and acceptance.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €200,000 Freedom revenue on delivery and acceptance.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D066",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Completed Phoenix event.",
+      "answer": "Recognize €100,000 Phoenix event revenue on completion and acceptance.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €100,000 Phoenix event revenue on completion and acceptance.",
+      "independentChallenge": "Recognize €100,000 Phoenix event revenue on completion and acceptance.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €100,000 Phoenix event revenue on completion and acceptance.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D067",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered Liberty order.",
+      "answer": "Recognize €120,000 Liberty revenue on delivery.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Recognize €120,000 Liberty revenue on delivery.",
+      "independentChallenge": "Recognize €120,000 Liberty revenue on delivery.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €120,000 Liberty revenue on delivery.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D068",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Undelivered September events.",
+      "answer": "Defer €90,000 undelivered September-event deposits.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E09 CRM Export"
+      ],
+      "confidence": "high",
+      "aiProposal": "Defer €90,000 undelivered September-event deposits.",
+      "independentChallenge": "Defer €90,000 undelivered September-event deposits.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Defer €90,000 undelivered September-event deposits.",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D069",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Loan principal payment.",
+      "answer": "Classify €19,000 principal payment as financing cash outflow.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D070",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Equipment purchase.",
+      "answer": "Classify €80,000 equipment purchases as PPE/investing outflows.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D071",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Closing bad-debt allowance/write-off and document the basis.",
+      "answer": "Estimate closing allowance at €18,000 for R-17.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high",
+      "aiProposal": "Estimate closing allowance at €18,000 for R-17.",
+      "independentChallenge": "Estimate closing allowance at €18,000 for R-17.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate closing allowance at €18,000 for R-17.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D072",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Damaged inventory write-off and document the basis.",
+      "answer": "Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
+      "evidence": [
+        "E04 Warehouse Count Marta Notes",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high",
+      "aiProposal": "Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
+      "independentChallenge": "Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D073",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Legal provision and document the basis.",
+      "answer": "Estimate legal provision at €25,000, with €20,000–€30,000 range.",
+      "evidence": [
+        "E07 Loans, Owner Card and Legal Problems",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high",
+      "aiProposal": "Estimate legal provision at €25,000, with €20,000–€30,000 range.",
+      "independentChallenge": "Estimate legal provision at €25,000, with €20,000–€30,000 range.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate legal provision at €25,000, with €20,000–€30,000 range.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D074",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Period depreciation and document the basis.",
+      "answer": "Estimate period depreciation at €24,000 using the independent schedule reference.",
+      "evidence": [
+        "E03 Purchases Invoices and Goods Received",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Estimate period depreciation at €24,000 using the independent schedule reference.",
+      "independentChallenge": "Estimate period depreciation at €24,000 using the independent schedule reference.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate period depreciation at €24,000 using the independent schedule reference.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D075",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Closing inventory and document the basis.",
+      "answer": "Estimate closing inventory at €112,000 by roll-forward and disclose €9,000 count discrepancy.",
+      "evidence": [
+        "E04 Warehouse Count Marta Notes",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Estimate closing inventory at €112,000 by roll-forward and disclose €9,000 count discrepancy.",
+      "independentChallenge": "Independent analysis agrees on €112,000 roll-forward but challenges the unresolved €9,000 physical-count difference.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate closing inventory at €112,000 by roll-forward and disclose €9,000 count discrepancy.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D076",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing receivables and document the basis.",
+      "answer": "Estimate net receivables at €168,000: €186,000 gross less €18,000 allowance.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D077",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Repair versus improvement amount and document the basis.",
+      "answer": "Estimate repair at €10,000 and improvements at €80,000.",
+      "evidence": [
+        "E03 Purchases Invoices and Goods Received",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D078",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Insurance expense and document the basis.",
+      "answer": "Insurance expense is €0 because no source supports a different amount.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D079",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Interest payable and document the basis.",
+      "answer": "Estimate interest payable at €2,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D080",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Accrued payroll and document the basis.",
+      "answer": "Estimate accrued payroll at €32,000.",
+      "evidence": [
+        "E05 Payroll Bonuses Contractors",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D081",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Customer deposit liability and document the basis.",
+      "answer": "Estimate customer deposit liability at €90,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D082",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate PPE closing cost and document the basis.",
+      "answer": "Estimate PPE closing cost at €260,000.",
+      "evidence": [
+        "E03 Purchases Invoices and Goods Received",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D083",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Accumulated depreciation and document the basis.",
+      "answer": "Estimate accumulated depreciation at €69,000.",
+      "evidence": [
+        "E03 Purchases Invoices and Goods Received",
+        "E06 Assets Repairs Leases"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D084",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Supplier payable and document the basis.",
+      "answer": "Estimate supplier payable at €126,000 from opening payable €45,000 plus purchases €459,000 less cash paid €378,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D085",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing loan and document the basis.",
+      "answer": "Estimate closing loan at €131,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D086",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Physical COGS and document the basis.",
+      "answer": "Estimate physical COGS at €405,000.",
+      "evidence": [
+        "E04 Warehouse Count Marta Notes",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D087",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Service direct payroll and document the basis.",
+      "answer": "Estimate service direct payroll at €80,000.",
+      "evidence": [
+        "E05 Payroll Bonuses Contractors",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D088",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Owner distributions and document the basis.",
+      "answer": "Estimate owner distributions at €110,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D089",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Net profit and document the basis.",
+      "answer": "Estimate corrected net profit at €65,000, subject to disclosed uncertainties.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E09 CRM Export"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D090",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing cash and document the basis.",
+      "answer": "Estimate closing cash at €60,000.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D091",
+      "category": "board_decision",
+      "reviewTier": "material_judgment",
+      "question": "Approve corrected accounts before valuation",
+      "answer": "Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E11 Management P&L workbook",
+        "E10 Email and WhatsApp Dump"
+      ],
+      "confidence": "high",
+      "aiProposal": "Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
+      "independentChallenge": "Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D092",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Freeze owner-card access",
+      "answer": "Freeze owner-card access immediately.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E11 Management P&L workbook",
+        "E10 Email and WhatsApp Dump"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D093",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Move September deposits to contract liabilities",
+      "answer": "Move September deposits to contract liabilities.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E11 Management P&L workbook",
+        "E10 Email and WhatsApp Dump"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D094",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Begin weekly 13-week cash forecast",
+      "answer": "Begin a weekly 13-week cash forecast.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E11 Management P&L workbook",
+        "E10 Email and WhatsApp Dump"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D095",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Stop credit sales to insolvent/high-risk customers",
+      "answer": "Stop unsecured credit sales to insolvent or high-risk customers.",
+      "evidence": [
+        "E02 Contracts, Returns and Angry Customers",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D096",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Dispose of damaged stock",
+      "answer": "Dispose of damaged stock after authorization.",
+      "evidence": [
+        "E04 Warehouse Count Marta Notes",
+        "E08 Evidence Received After Takeover"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D097",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Investigate management override and duplicate sources",
+      "answer": "Investigate management override, unsupported claims, and reconciliation differences.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E11 Management P&L workbook",
+        "E10 Email and WhatsApp Dump"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D098",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Renegotiate supplier terms",
+      "answer": "Renegotiate supplier terms.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E11 Management P&L workbook",
+        "E10 Email and WhatsApp Dump"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D099",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Continue core Finally Single and event operations",
+      "answer": "Continue core operations only with controls, cash forecasting, and receivables discipline.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E11 Management P&L workbook",
+        "E10 Email and WhatsApp Dump"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D100",
+      "category": "board_decision",
+      "reviewTier": "material_judgment",
+      "question": "Use claimed management profit for earn-out",
+      "answer": "Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
+      "evidence": [
+        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E11 Management P&L workbook",
+        "E10 Email and WhatsApp Dump"
+      ],
+      "confidence": "high",
+      "aiProposal": "Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
+      "independentChallenge": "Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
+      "studentReasoning": "Proposed reasoning for Pēteris to certify: Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "assets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "changedFromAI": false
+    }
+  ],
+  "schedules": {
+    "revenueAndReceivables": {
+      "revenue": 960000,
+      "grossReceivables": 186000,
+      "allowance": 18000,
+      "netReceivables": 168000,
+      "deposits": 90000
+    },
+    "inventory": {
+      "opening": 80000,
+      "purchases": 459000,
+      "materialsConsumed": 405000,
+      "writeDown": 22000,
+      "closing": 112000
+    },
+    "payroll": {
+      "expense": 248000,
+      "cashPaid": 231000,
+      "openingPayable": 15000,
+      "closingPayable": 32000
+    },
+    "ppe": {
+      "cost": 260000,
+      "accumulatedDepreciation": 69000,
+      "net": 191000
+    },
+    "debt": {
+      "closingLoan": 131000,
+      "interestExpense": 12000,
+      "interestPayable": 2000
+    },
+    "equity": {
+      "opening": 170000,
+      "profit": 65000,
+      "distributions": 110000,
+      "closing": 125000
+    }
+  },
+  "statements": {
+    "profitAndLoss": {
+      "netProfit": 65000,
+      "lines": [
+        {
+          "label": "Revenue",
+          "amount": 960000
+        },
+        {
+          "label": "COGS",
+          "amount": -485000
+        },
+        {
+          "label": "Operating expenses",
+          "amount": -398000
+        },
+        {
+          "label": "Interest expense",
+          "amount": -12000
+        },
+        {
+          "label": "Net profit",
+          "amount": 65000
+        }
+      ]
+    },
+    "cashFlow": {
+      "closingCash": 60000,
+      "lines": [
+        {
+          "label": "Operating cash flow",
+          "amount": 139000
+        },
+        {
+          "label": "PPE purchases",
+          "amount": -80000
+        },
+        {
+          "label": "New borrowing",
+          "amount": 50000
+        },
+        {
+          "label": "Principal repayment",
+          "amount": -19000
+        },
+        {
+          "label": "Owner distributions",
+          "amount": -110000
+        },
+        {
+          "label": "Closing cash",
+          "amount": 60000
+        }
+      ]
+    },
+    "balanceSheet": {
+      "assets": {
+        "cash": 60000,
+        "receivables": 168000,
+        "inventory": 112000,
+        "ppe": 191000
+      },
+      "liabilities": {
+        "payables": 126000,
+        "payrollPayable": 32000,
+        "interestPayable": 2000,
+        "contractLiabilities": 90000,
+        "loan": 131000,
+        "legalProvision": 25000
+      },
+      "equity": 125000
+    }
+  },
+  "reconciliations": [
+    {
+      "name": "Cash",
+      "status": "Ties to bank confirmation: €60,000."
+    },
+    {
+      "name": "Inventory",
+      "status": "€112,000 roll-forward; €9,000 count discrepancy disclosed."
+    },
+    {
+      "name": "Supplier balances",
+      "status": "€45,000 opening payable plus €459,000 purchases less €378,000 cash paid equals €126,000 closing payables."
+    }
+  ],
+  "uncertainties": [
+    "€9,000 difference between inventory cost roll-forward and saleable physical-count values.",
+    "Opening supplier payable of €45,000 is inferred from the supplier roll-forward and requires remittance confirmation.",
+    "No insurance policy, payment, prepayment, or consumption evidence was supplied.",
+    "Legal claim range is €20,000–€30,000; €25,000 is the best estimate.",
+    "€2,000 disposal quote is disclosed but not recorded as a present obligation."
+  ],
+  "boardRecommendation": {
+    "summary": "Use the corrected provisional accounts, not management’s €312,000 claimed profit, for valuation decisions.",
+    "actions": [
+      "Freeze owner-card access.",
+      "Move September deposits to contract liabilities.",
+      "Start a 13-week cash forecast.",
+      "Reconcile supplier remittances and inventory variance.",
+      "Tighten credit controls and pursue the R-17 balance."
+    ]
+  }
+}
