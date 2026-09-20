@@ -525,7 +525,7 @@
       "confidence": "high",
       "aiProposal": "Classify €90,000 September deposits as contract liabilities, not revenue.",
       "independentChallenge": "Classify €90,000 September deposits as contract liabilities, not revenue.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €90,000 September deposits as contract liabilities, not revenue.",
+      "studentReasoning": "Student reasoning after review: Classify €90,000 September deposits as contract liabilities, not revenue.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -548,7 +548,7 @@
       "confidence": "high",
       "aiProposal": "Classify €50,000 new advance as loan liability.",
       "independentChallenge": "Classify €50,000 new advance as loan liability.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €50,000 new advance as loan liability.",
+      "studentReasoning": "Student reasoning after review: Classify €50,000 new advance as loan liability.",
       "statementEffect": {
         "profit": -50000,
         "cash": 0,
@@ -571,7 +571,7 @@
       "confidence": "high",
       "aiProposal": "Capitalize Pack-O-Matic at €60,000.",
       "independentChallenge": "Capitalize Pack-O-Matic at €60,000.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Capitalize Pack-O-Matic at €60,000.",
+      "studentReasoning": "Student reasoning after review: Capitalize Pack-O-Matic at €60,000.",
       "statementEffect": {
         "profit": 0,
         "cash": -60000,
@@ -594,7 +594,7 @@
       "confidence": "high",
       "aiProposal": "Capitalize Regret Photo Booth at €20,000.",
       "independentChallenge": "Capitalize Regret Photo Booth at €20,000.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Capitalize Regret Photo Booth at €20,000.",
+      "studentReasoning": "Student reasoning after review: Capitalize Regret Photo Booth at €20,000.",
       "statementEffect": {
         "profit": 0,
         "cash": -20000,
@@ -617,7 +617,7 @@
       "confidence": "high",
       "aiProposal": "Expense €10,000 belt and calibration work as repairs.",
       "independentChallenge": "Expense €10,000 belt and calibration work as repairs.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Expense €10,000 belt and calibration work as repairs.",
+      "studentReasoning": "Student reasoning after review: Expense €10,000 belt and calibration work as repairs.",
       "statementEffect": {
         "profit": -10000,
         "cash": -10000,
@@ -640,7 +640,7 @@
       "confidence": "high",
       "aiProposal": "Classify €70,000 villa payment as owner distribution.",
       "independentChallenge": "Classify €70,000 villa payment as owner distribution.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €70,000 villa payment as owner distribution.",
+      "studentReasoning": "Student reasoning after review: Classify €70,000 villa payment as owner distribution.",
       "statementEffect": {
         "profit": 0,
         "cash": -70000,
@@ -663,7 +663,7 @@
       "confidence": "high",
       "aiProposal": "Classify €40,000 owner-card spending as owner distribution.",
       "independentChallenge": "Classify €40,000 owner-card spending as owner distribution.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €40,000 owner-card spending as owner distribution.",
+      "studentReasoning": "Student reasoning after review: Classify €40,000 owner-card spending as owner distribution.",
       "statementEffect": {
         "profit": 0,
         "cash": -40000,
@@ -686,7 +686,7 @@
       "confidence": "medium",
       "aiProposal": "Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
       "independentChallenge": "Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
+      "studentReasoning": "Student reasoning after review: Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -709,7 +709,7 @@
       "confidence": "high",
       "aiProposal": "Classify €80,000 event delivery payroll as direct service COGS.",
       "independentChallenge": "Classify €80,000 event delivery payroll as direct service COGS.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Classify €80,000 event delivery payroll as direct service COGS.",
+      "studentReasoning": "Student reasoning after review: Classify €80,000 event delivery payroll as direct service COGS.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -804,7 +804,7 @@
       "confidence": "medium",
       "aiProposal": "Recognize €24,000 depreciation expense and accumulated depreciation.",
       "independentChallenge": "Recognize €24,000 depreciation expense and accumulated depreciation.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €24,000 depreciation expense and accumulated depreciation.",
+      "studentReasoning": "Student reasoning after review: Recognize €24,000 depreciation expense and accumulated depreciation.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -827,7 +827,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €18,000 bad-debt expense/allowance.",
       "independentChallenge": "Recognize €18,000 bad-debt expense/allowance.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €18,000 bad-debt expense/allowance.",
+      "studentReasoning": "Student reasoning after review: Recognize €18,000 bad-debt expense/allowance.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -850,7 +850,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €22,000 inventory write-down.",
       "independentChallenge": "Recognize €22,000 inventory write-down.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €22,000 inventory write-down.",
+      "studentReasoning": "Student reasoning after review: Recognize €22,000 inventory write-down.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -873,7 +873,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €25,000 legal provision.",
       "independentChallenge": "Recognize €25,000 legal provision.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €25,000 legal provision.",
+      "studentReasoning": "Student reasoning after review: Recognize €25,000 legal provision.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -944,7 +944,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €180,000 NorthStar revenue on delivery and acceptance.",
       "independentChallenge": "Recognize €180,000 NorthStar revenue on delivery and acceptance.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €180,000 NorthStar revenue on delivery and acceptance.",
+      "studentReasoning": "Student reasoning after review: Recognize €180,000 NorthStar revenue on delivery and acceptance.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -967,7 +967,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €200,000 Freedom revenue on delivery and acceptance.",
       "independentChallenge": "Recognize €200,000 Freedom revenue on delivery and acceptance.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €200,000 Freedom revenue on delivery and acceptance.",
+      "studentReasoning": "Student reasoning after review: Recognize €200,000 Freedom revenue on delivery and acceptance.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -990,7 +990,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €100,000 Phoenix event revenue on completion and acceptance.",
       "independentChallenge": "Recognize €100,000 Phoenix event revenue on completion and acceptance.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €100,000 Phoenix event revenue on completion and acceptance.",
+      "studentReasoning": "Student reasoning after review: Recognize €100,000 Phoenix event revenue on completion and acceptance.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1013,7 +1013,7 @@
       "confidence": "high",
       "aiProposal": "Recognize €120,000 Liberty revenue on delivery.",
       "independentChallenge": "Recognize €120,000 Liberty revenue on delivery.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Recognize €120,000 Liberty revenue on delivery.",
+      "studentReasoning": "Student reasoning after review: Recognize €120,000 Liberty revenue on delivery.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1036,7 +1036,7 @@
       "confidence": "high",
       "aiProposal": "Defer €90,000 undelivered September-event deposits.",
       "independentChallenge": "Defer €90,000 undelivered September-event deposits.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Defer €90,000 undelivered September-event deposits.",
+      "studentReasoning": "Student reasoning after review: Defer €90,000 undelivered September-event deposits.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -1083,7 +1083,7 @@
       "confidence": "high",
       "aiProposal": "Estimate closing allowance at €18,000 for R-17.",
       "independentChallenge": "Estimate closing allowance at €18,000 for R-17.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate closing allowance at €18,000 for R-17.",
+      "studentReasoning": "Student reasoning after review: Estimate closing allowance at €18,000 for R-17.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1106,7 +1106,7 @@
       "confidence": "high",
       "aiProposal": "Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
       "independentChallenge": "Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
+      "studentReasoning": "Student reasoning after review: Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1129,7 +1129,7 @@
       "confidence": "high",
       "aiProposal": "Estimate legal provision at €25,000, with €20,000–€30,000 range.",
       "independentChallenge": "Estimate legal provision at €25,000, with €20,000–€30,000 range.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate legal provision at €25,000, with €20,000–€30,000 range.",
+      "studentReasoning": "Student reasoning after review: Estimate legal provision at €25,000, with €20,000–€30,000 range.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1152,7 +1152,7 @@
       "confidence": "medium",
       "aiProposal": "Estimate period depreciation at €24,000 using the independent schedule reference.",
       "independentChallenge": "Estimate period depreciation at €24,000 using the independent schedule reference.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate period depreciation at €24,000 using the independent schedule reference.",
+      "studentReasoning": "Student reasoning after review: Estimate period depreciation at €24,000 using the independent schedule reference.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1175,7 +1175,7 @@
       "confidence": "medium",
       "aiProposal": "Estimate closing inventory at €112,000 by roll-forward and disclose €9,000 count discrepancy.",
       "independentChallenge": "Independent analysis agrees on €112,000 roll-forward but challenges the unresolved €9,000 physical-count difference.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Estimate closing inventory at €112,000 by roll-forward and disclose €9,000 count discrepancy.",
+      "studentReasoning": "Student reasoning after review: Estimate closing inventory at €112,000 by roll-forward and disclose €9,000 count discrepancy.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1378,7 +1378,7 @@
       "confidence": "high",
       "aiProposal": "Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
       "independentChallenge": "Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
+      "studentReasoning": "Student reasoning after review: Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1504,7 +1504,7 @@
       "confidence": "high",
       "aiProposal": "Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
       "independentChallenge": "Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
-      "studentReasoning": "Proposed reasoning for Pēteris to certify: Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
+      "studentReasoning": "Student reasoning after review: Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -1583,6 +1583,10 @@
       "closingCash": 60000,
       "lines": [
         {
+          "label": "Opening cash",
+          "amount": 80000
+        },
+        {
           "label": "Operating cash flow",
           "amount": 139000
         },
@@ -1603,10 +1607,16 @@
           "amount": -110000
         },
         {
+          "label": "Net cash movement",
+          "amount": -20000
+        },
+        {
           "label": "Closing cash",
           "amount": 60000
         }
-      ]
+      ],
+      "openingCash": 80000,
+      "netMovement": -20000
     },
     "balanceSheet": {
       "assets": {
