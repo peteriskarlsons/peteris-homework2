@@ -523,15 +523,15 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Classify €90,000 September deposits as contract liabilities, not revenue.",
-      "independentChallenge": "Classify €90,000 September deposits as contract liabilities, not revenue.",
-      "studentReasoning": "Student reasoning after review: Classify €90,000 September deposits as contract liabilities, not revenue.",
+      "aiProposal": "defer the €60,000 NB-SEP and €30,000 FF-SEP receipts because the contracts record no delivery by 31 August.",
+      "independentChallenge": "cross-checked both September deposits against the contract delivery dates and reached the same €90,000 liability conclusion.",
+      "studentReasoning": "The contracts and CRM identify €60,000 and €30,000 as September deposits with no goods or services delivered by 31 August. Cash receipt therefore creates a €90,000 contract liability, not August revenue.",
       "statementEffect": {
-        "profit": -90000,
-        "cash": 0,
-        "assets": 0,
+        "profit": 0,
+        "cash": 90000,
+        "assets": 90000,
         "liabilities": 90000,
-        "equity": -90000
+        "equity": 0
       },
       "changedFromAI": false
     },
@@ -546,15 +546,15 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Classify €50,000 new advance as loan liability.",
-      "independentChallenge": "Classify €50,000 new advance as loan liability.",
-      "studentReasoning": "Student reasoning after review: Classify €50,000 new advance as loan liability.",
+      "aiProposal": "recognise the €50,000 bank advance as a loan because the signed agreement describes borrowing, not income.",
+      "independentChallenge": "treated the bank agreement as higher-quality evidence than management’s label and independently concluded that the receipt is debt.",
+      "studentReasoning": "The signed bank agreement calls the €50,000 receipt a loan advance. The bank description and the loan evidence outweigh management’s unsupported “strategic income” label, so the receipt is a liability.",
       "statementEffect": {
-        "profit": -50000,
-        "cash": 0,
-        "assets": 0,
+        "profit": 0,
+        "cash": 50000,
+        "assets": 50000,
         "liabilities": 50000,
-        "equity": -50000
+        "equity": 0
       },
       "changedFromAI": false
     },
@@ -569,13 +569,13 @@
         "E06 Assets Repairs Leases"
       ],
       "confidence": "high",
-      "aiProposal": "Capitalize Pack-O-Matic at €60,000.",
-      "independentChallenge": "Capitalize Pack-O-Matic at €60,000.",
-      "studentReasoning": "Student reasoning after review: Capitalize Pack-O-Matic at €60,000.",
+      "aiProposal": "capitalise the €60,000 Pack-O-Matic because invoice A-910 identifies an installed machine available for use.",
+      "independentChallenge": "confirmed that an installed packaging machine gives future benefit and agreed that the €60,000 is PPE.",
+      "studentReasoning": "Invoice A-910 identifies a €60,000 packaging machine installed on 10 May. It is a controlled asset available for use, so cash is exchanged for PPE rather than creating an expense.",
       "statementEffect": {
         "profit": 0,
         "cash": -60000,
-        "assets": 60000,
+        "assets": 0,
         "liabilities": 0,
         "equity": 0
       },
@@ -592,13 +592,13 @@
         "E06 Assets Repairs Leases"
       ],
       "confidence": "high",
-      "aiProposal": "Capitalize Regret Photo Booth at €20,000.",
-      "independentChallenge": "Capitalize Regret Photo Booth at €20,000.",
-      "studentReasoning": "Student reasoning after review: Capitalize Regret Photo Booth at €20,000.",
+      "aiProposal": "capitalise the €20,000 Regret Photo Booth because invoice P-404 identifies equipment available for use.",
+      "independentChallenge": "confirmed that the photo booth was available for use and agreed that the €20,000 is PPE.",
+      "studentReasoning": "Invoice P-404 identifies the €20,000 photo booth and confirms it was available for use on 10 May. It is a long-lived operating asset, so the payment is capitalised as PPE.",
       "statementEffect": {
         "profit": 0,
         "cash": -20000,
-        "assets": 20000,
+        "assets": 0,
         "liabilities": 0,
         "equity": 0
       },
@@ -615,13 +615,13 @@
         "E06 Assets Repairs Leases"
       ],
       "confidence": "high",
-      "aiProposal": "Expense €10,000 belt and calibration work as repairs.",
-      "independentChallenge": "Expense €10,000 belt and calibration work as repairs.",
-      "studentReasoning": "Student reasoning after review: Expense €10,000 belt and calibration work as repairs.",
+      "aiProposal": "expense €10,000 because invoice R-771 says the work restored normal output and did not extend useful life.",
+      "independentChallenge": "focused on the invoice language “restored normal output” and agreed that the €10,000 is repair expense.",
+      "studentReasoning": "Invoice R-771 says the €10,000 belt, cleaning and calibration restored normal output without increasing capacity or useful life. That evidence supports repair expense rather than capital expenditure.",
       "statementEffect": {
         "profit": -10000,
         "cash": -10000,
-        "assets": 0,
+        "assets": -10000,
         "liabilities": 0,
         "equity": -10000
       },
@@ -638,13 +638,13 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Classify €70,000 villa payment as owner distribution.",
-      "independentChallenge": "Classify €70,000 villa payment as owner distribution.",
-      "studentReasoning": "Student reasoning after review: Classify €70,000 villa payment as owner distribution.",
+      "aiProposal": "classify the €70,000 villa reservation as a distribution because the villa is personally owned and no business meeting occurred.",
+      "independentChallenge": "verified the founder’s personal ownership and absence of a business meeting; it agreed this is not marketing or payroll.",
+      "studentReasoning": "The bank entry is for a €70,000 villa reservation in the founder’s personal name, and the case records no customer meeting. It is a distribution: cash and total assets fall €70,000 and equity falls €70,000, with no profit effect.",
       "statementEffect": {
         "profit": 0,
         "cash": -70000,
-        "assets": 0,
+        "assets": -70000,
         "liabilities": 0,
         "equity": -70000
       },
@@ -661,13 +661,13 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Classify €40,000 owner-card spending as owner distribution.",
-      "independentChallenge": "Classify €40,000 owner-card spending as owner distribution.",
-      "studentReasoning": "Student reasoning after review: Classify €40,000 owner-card spending as owner distribution.",
+      "aiProposal": "classify €40,000 owner-card spending as a distribution because no business purpose is evidenced.",
+      "independentChallenge": "found no business evidence for the owner-card spending and agreed it is an equity distribution.",
+      "studentReasoning": "The loan and owner-card evidence identifies €40,000 of other owner card spending with no business purpose. It is a distribution: cash and total assets fall €40,000 and equity falls €40,000, with no profit effect.",
       "statementEffect": {
         "profit": 0,
         "cash": -40000,
-        "assets": 0,
+        "assets": -40000,
         "liabilities": 0,
         "equity": -40000
       },
@@ -684,15 +684,15 @@
         "E08 Evidence Received After Takeover"
       ],
       "confidence": "medium",
-      "aiProposal": "Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
-      "independentChallenge": "Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
-      "studentReasoning": "Student reasoning after review: Classify €405,000 physical materials consumed as COGS, subject to the disclosed €9,000 count variance.",
+      "aiProposal": "charge €405,000 of materials consumed on delivered sales to COGS and separately disclose the €9,000 count difference.",
+      "independentChallenge": "independently recomputed the documented €405,000 consumption and retained the €9,000 count variance as an uncertainty.",
+      "studentReasoning": "Warehouse records specify €405,000 of physical product materials consumed on valid delivered sales. Those materials are no longer an asset and are recognised in COGS; the separate €9,000 count variance remains disclosed.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": -405000,
+        "cash": 0,
+        "assets": -405000,
+        "liabilities": 0,
+        "equity": -405000
       },
       "changedFromAI": false
     },
@@ -707,15 +707,15 @@
         "E01 Bank Export August.csv and post-takeover bank confirmation"
       ],
       "confidence": "high",
-      "aiProposal": "Classify €80,000 event delivery payroll as direct service COGS.",
-      "independentChallenge": "Classify €80,000 event delivery payroll as direct service COGS.",
-      "studentReasoning": "Student reasoning after review: Classify €80,000 event delivery payroll as direct service COGS.",
+      "aiProposal": "classify €80,000 event-delivery payroll as service COGS because it directly fulfils completed events.",
+      "independentChallenge": "agreed that the event-delivery function makes the €80,000 direct cost of service.",
+      "studentReasoning": "The payroll evidence identifies €80,000 for event delivery. Because it directly fulfils completed events, it is service COGS rather than selling or administration expense.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": -80000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -80000
       },
       "changedFromAI": false
     },
@@ -802,9 +802,9 @@
         "E06 Assets Repairs Leases"
       ],
       "confidence": "medium",
-      "aiProposal": "Recognize €24,000 depreciation expense and accumulated depreciation.",
-      "independentChallenge": "Recognize €24,000 depreciation expense and accumulated depreciation.",
-      "studentReasoning": "Student reasoning after review: Recognize €24,000 depreciation expense and accumulated depreciation.",
+      "aiProposal": "record €24,000 depreciation using the period asset schedule for PPE that was available for use.",
+      "independentChallenge": "checked that depreciation is non-cash and agreed the €24,000 charge reduces PPE and profit.",
+      "studentReasoning": "The asset schedule supports €24,000 depreciation for the period on PPE available for use. Depreciation consumes the asset’s carrying amount without a current-period cash outflow.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -825,9 +825,9 @@
         "E08 Evidence Received After Takeover"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €18,000 bad-debt expense/allowance.",
-      "independentChallenge": "Recognize €18,000 bad-debt expense/allowance.",
-      "studentReasoning": "Student reasoning after review: Recognize €18,000 bad-debt expense/allowance.",
+      "aiProposal": "record an €18,000 specific allowance because R-17 was in liquidation with no recovery expected.",
+      "independentChallenge": "treated the post-year-end liquidation notice as adjusting evidence of the 31 August condition and agreed the €18,000 allowance.",
+      "studentReasoning": "The R-17 liquidation notice says no distribution is expected and confirms a condition existing at 31 August. The €18,000 receivable is therefore specifically impaired, reducing profit, receivables and equity by €18,000.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -848,9 +848,9 @@
         "E08 Evidence Received After Takeover"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €22,000 inventory write-down.",
-      "independentChallenge": "Recognize €22,000 inventory write-down.",
-      "studentReasoning": "Student reasoning after review: Recognize €22,000 inventory write-down.",
+      "aiProposal": "write down €22,000 water-damaged inventory to nil because the warehouse count says it is unsaleable.",
+      "independentChallenge": "accepted the warehouse’s nil saleable value and agreed that the disposal quote does not establish a provision.",
+      "studentReasoning": "Warehouse evidence says the water-damaged stock has no saleable value and gives its carrying value as €22,000. The €2,000 disposal quote is not a present obligation, so only the €22,000 inventory write-down is recorded.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -871,9 +871,9 @@
         "E08 Evidence Received After Takeover"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €25,000 legal provision.",
-      "independentChallenge": "Recognize €25,000 legal provision.",
-      "studentReasoning": "Student reasoning after review: Recognize €25,000 legal provision.",
+      "aiProposal": "recognise a €25,000 provision because external counsel assessed the claim as probable and gave that best estimate.",
+      "independentChallenge": "accepted the external lawyer’s 31 August probability assessment and agreed the €25,000 best estimate.",
+      "studentReasoning": "External counsel confirmed at 31 August that the employee claim was probable and its best estimate was €25,000, within a €20,000–€30,000 range. This supports a €25,000 expense and provision.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -942,15 +942,15 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €180,000 NorthStar revenue on delivery and acceptance.",
-      "independentChallenge": "Recognize €180,000 NorthStar revenue on delivery and acceptance.",
-      "studentReasoning": "Student reasoning after review: Recognize €180,000 NorthStar revenue on delivery and acceptance.",
+      "aiProposal": "recognise €180,000 NorthStar revenue because the customer accepted the goods.",
+      "independentChallenge": "independently used customer acceptance as the revenue-recognition trigger and agreed with €180,000.",
+      "studentReasoning": "The NorthStar contract records €180,000 of boxes accepted on 12 February. Acceptance evidences transfer of control, so €180,000 revenue and the corresponding receivable are recognised.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": 180000,
+        "cash": 0,
+        "assets": 180000,
+        "liabilities": 0,
+        "equity": 180000
       },
       "changedFromAI": false
     },
@@ -965,15 +965,15 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €200,000 Freedom revenue on delivery and acceptance.",
-      "independentChallenge": "Recognize €200,000 Freedom revenue on delivery and acceptance.",
-      "studentReasoning": "Student reasoning after review: Recognize €200,000 Freedom revenue on delivery and acceptance.",
+      "aiProposal": "recognise €200,000 Freedom revenue because the customer accepted the goods.",
+      "independentChallenge": "independently used customer acceptance as the revenue-recognition trigger and agreed with €200,000.",
+      "studentReasoning": "The Freedom contract records €200,000 of boxes accepted on 18 March. Acceptance evidences transfer of control, so €200,000 revenue and the corresponding receivable are recognised.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": 200000,
+        "cash": 0,
+        "assets": 200000,
+        "liabilities": 0,
+        "equity": 200000
       },
       "changedFromAI": false
     },
@@ -988,15 +988,15 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €100,000 Phoenix event revenue on completion and acceptance.",
-      "independentChallenge": "Recognize €100,000 Phoenix event revenue on completion and acceptance.",
-      "studentReasoning": "Student reasoning after review: Recognize €100,000 Phoenix event revenue on completion and acceptance.",
+      "aiProposal": "recognise €100,000 Phoenix revenue because the contract records that the 29 April event was completed, satisfying the service obligation.",
+      "independentChallenge": "independently used completed performance as the revenue-recognition trigger and agreed with €100,000.",
+      "studentReasoning": "The Phoenix contract records a €100,000 event completed on 29 April. Completion evidences that the service obligation was fulfilled, so revenue is recognised.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": 100000,
+        "cash": 0,
+        "assets": 100000,
+        "liabilities": 0,
+        "equity": 100000
       },
       "changedFromAI": false
     },
@@ -1011,15 +1011,15 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Recognize €120,000 Liberty revenue on delivery.",
-      "independentChallenge": "Recognize €120,000 Liberty revenue on delivery.",
-      "studentReasoning": "Student reasoning after review: Recognize €120,000 Liberty revenue on delivery.",
+      "aiProposal": "recognise €120,000 Liberty revenue because the contract records delivery of the mixed order on 20 June, transferring control to the customer.",
+      "independentChallenge": "independently used delivery as the revenue-recognition trigger and agreed with €120,000.",
+      "studentReasoning": "The Liberty contract records a €120,000 mixed order delivered on 20 June. Delivery evidences transfer of control, so revenue is recognised.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": 120000,
+        "cash": 0,
+        "assets": 120000,
+        "liabilities": 0,
+        "equity": 120000
       },
       "changedFromAI": false
     },
@@ -1034,15 +1034,15 @@
         "E09 CRM Export"
       ],
       "confidence": "high",
-      "aiProposal": "Defer €90,000 undelivered September-event deposits.",
-      "independentChallenge": "Defer €90,000 undelivered September-event deposits.",
-      "studentReasoning": "Student reasoning after review: Defer €90,000 undelivered September-event deposits.",
+      "aiProposal": "retain the €90,000 September cash as a contract liability until the promised goods or services are delivered.",
+      "independentChallenge": "confirmed that no performance occurred by 31 August and agreed that cash does not itself create revenue.",
+      "studentReasoning": "The contracts state that no September goods or services had been delivered by 31 August. The €90,000 cash deposits remain a contract liability until performance occurs.",
       "statementEffect": {
-        "profit": -90000,
-        "cash": 0,
-        "assets": 0,
+        "profit": 0,
+        "cash": 90000,
+        "assets": 90000,
         "liabilities": 90000,
-        "equity": -90000
+        "equity": 0
       },
       "changedFromAI": false
     },
@@ -1081,15 +1081,15 @@
         "E08 Evidence Received After Takeover"
       ],
       "confidence": "high",
-      "aiProposal": "Estimate closing allowance at €18,000 for R-17.",
-      "independentChallenge": "Estimate closing allowance at €18,000 for R-17.",
-      "studentReasoning": "Student reasoning after review: Estimate closing allowance at €18,000 for R-17.",
+      "aiProposal": "use a €18,000 R-17 allowance, based on the no-recovery liquidation evidence.",
+      "independentChallenge": "independently confirmed no recovery was expected and agreed with the €18,000 specific allowance.",
+      "studentReasoning": "R-17 was in liquidation at reporting date and the liquidator later confirmed no recovery. The specific €18,000 allowance faithfully measures the expected credit loss at 31 August.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
       },
       "changedFromAI": false
     },
@@ -1104,15 +1104,15 @@
         "E08 Evidence Received After Takeover"
       ],
       "confidence": "high",
-      "aiProposal": "Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
-      "independentChallenge": "Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
-      "studentReasoning": "Student reasoning after review: Estimate damaged-inventory write-off at €22,000; disposal is separately uncertain.",
+      "aiProposal": "use a €22,000 inventory write-down and disclose, rather than accrue, the €2,000 disposal quote.",
+      "independentChallenge": "agreed on the €22,000 nil-value write-down but retained uncertainty over the physical-count mismatch.",
+      "studentReasoning": "The warehouse count identifies €22,000 of water-damaged, unsaleable stock. The write-down is measured to nil; the later €2,000 disposal quote is disclosed separately because no present obligation is evidenced.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
       },
       "changedFromAI": false
     },
@@ -1127,15 +1127,15 @@
         "E08 Evidence Received After Takeover"
       ],
       "confidence": "high",
-      "aiProposal": "Estimate legal provision at €25,000, with €20,000–€30,000 range.",
-      "independentChallenge": "Estimate legal provision at €25,000, with €20,000–€30,000 range.",
-      "studentReasoning": "Student reasoning after review: Estimate legal provision at €25,000, with €20,000–€30,000 range.",
+      "aiProposal": "use the counsel’s €25,000 best estimate within the stated €20,000–€30,000 range.",
+      "independentChallenge": "independently selected the stated €25,000 best estimate and retained disclosure of the €20,000–€30,000 range.",
+      "studentReasoning": "External counsel’s 31 August confirmation describes the claim as probable with a €25,000 best estimate and a €20,000–€30,000 range. €25,000 is therefore the supportable provision estimate.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
       },
       "changedFromAI": false
     },
@@ -1150,15 +1150,15 @@
         "E06 Assets Repairs Leases"
       ],
       "confidence": "medium",
-      "aiProposal": "Estimate period depreciation at €24,000 using the independent schedule reference.",
-      "independentChallenge": "Estimate period depreciation at €24,000 using the independent schedule reference.",
-      "studentReasoning": "Student reasoning after review: Estimate period depreciation at €24,000 using the independent schedule reference.",
+      "aiProposal": "use €24,000 depreciation, supported by the asset schedule and availability dates.",
+      "independentChallenge": "checked the period asset data and independently agreed with the €24,000 depreciation charge.",
+      "studentReasoning": "The PPE evidence gives cost and availability dates, and the independent schedule supports €24,000 period depreciation. The charge reduces PPE and profit without reducing cash.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": -24000,
+        "cash": 0,
+        "assets": -24000,
+        "liabilities": 0,
+        "equity": -24000
       },
       "changedFromAI": false
     },
@@ -1173,15 +1173,15 @@
         "E08 Evidence Received After Takeover"
       ],
       "confidence": "medium",
-      "aiProposal": "Estimate closing inventory at €112,000 by roll-forward and disclose €9,000 count discrepancy.",
-      "independentChallenge": "Independent analysis agrees on €112,000 roll-forward but challenges the unresolved €9,000 physical-count difference.",
-      "studentReasoning": "Student reasoning after review: Estimate closing inventory at €112,000 by roll-forward and disclose €9,000 count discrepancy.",
+      "aiProposal": "calculate closing inventory at €112,000 from the documented cost roll-forward and disclose the count variance.",
+      "independentChallenge": "agrees on the €112,000 cost roll-forward but challenges the unresolved €9,000 physical-count difference; it must remain disclosed.",
+      "studentReasoning": "The roll-forward is €80,000 opening inventory + €459,000 purchases − €405,000 consumed − €22,000 write-down = €112,000. The physical count differs by €9,000, so €112,000 is used provisionally and the variance is disclosed.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": 0,
+        "cash": 0,
+        "assets": 112000,
+        "liabilities": 0,
+        "equity": 112000
       },
       "changedFromAI": false
     },
@@ -1376,15 +1376,15 @@
         "E10 Email and WhatsApp Dump"
       ],
       "confidence": "high",
-      "aiProposal": "Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
-      "independentChallenge": "Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
-      "studentReasoning": "Student reasoning after review: Approve only the corrected provisional accounts before valuation, with uncertainties retained.",
+      "aiProposal": "approve only the corrected provisional accounts because €65,000 profit and €60,000 cash reconcile to the evidence.",
+      "independentChallenge": "agreed that only the reconciled provisional accounts can be used before valuation while the listed uncertainties remain open.",
+      "studentReasoning": "The corrected statements reconcile to €65,000 profit and €60,000 bank cash, whereas management claimed €312,000 profit. The €247,000 profit/equity difference and unresolved disclosures mean valuation approval can only use the corrected provisional accounts.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": -247000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -247000
       },
       "changedFromAI": false
     },
@@ -1502,15 +1502,15 @@
         "E10 Email and WhatsApp Dump"
       ],
       "confidence": "high",
-      "aiProposal": "Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
-      "independentChallenge": "Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
-      "studentReasoning": "Student reasoning after review: Do not use management’s €312,000 profit for earn-out; use corrected provisional accounts.",
+      "aiProposal": "reject management’s €312,000 earn-out figure and use the corrected €65,000 provisional profit.",
+      "independentChallenge": "agreed that management’s €312,000 claim lacks evidence support and that valuation must use the €65,000 corrected amount.",
+      "studentReasoning": "Management’s €312,000 earn-out profit is not supported by the bank, contract, warehouse, payroll and legal evidence. The corrected €65,000 provisional profit is €247,000 lower and is the only supportable valuation basis.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": -247000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -247000
       },
       "changedFromAI": false
     }
@@ -1535,6 +1535,20 @@
       "cashPaid": 231000,
       "openingPayable": 15000,
       "closingPayable": 32000
+    },
+    "operatingExpenses": {
+      "sellingPayroll": 72000,
+      "administrativePayroll": 96000,
+      "rent": 48000,
+      "marketing": 55000,
+      "software": 16000,
+      "utilities": 12000,
+      "repairs": 10000,
+      "depreciation": 24000,
+      "badDebtExpense": 18000,
+      "inventoryWriteDown": 22000,
+      "legalProvisionExpense": 25000,
+      "totalOperatingExpenses": 398000
     },
     "ppe": {
       "cost": 260000,
