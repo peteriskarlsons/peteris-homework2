@@ -519,7 +519,7 @@
       "question": "Classify September customer deposits.",
       "answer": "Classify €90,000 September deposits as contract liabilities, not revenue.",
       "evidence": [
-        "E01 Bank Export August.csv and post-takeover bank confirmation",
+        "E02 Contracts, Returns and Angry Customers",
         "E09 CRM Export"
       ],
       "confidence": "high",
@@ -542,8 +542,8 @@
       "question": "Classify New bank borrowing.",
       "answer": "Classify €50,000 new advance as loan liability.",
       "evidence": [
-        "E01 Bank Export August.csv and post-takeover bank confirmation",
-        "E09 CRM Export"
+        "E07 Loans, Owner Card and Legal Problems",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
       ],
       "confidence": "high",
       "aiProposal": "recognise the €50,000 bank advance as a loan because the signed agreement describes borrowing, not income.",
@@ -634,8 +634,8 @@
       "question": "Classify Owner villa deposit.",
       "answer": "Classify €70,000 villa payment as owner distribution.",
       "evidence": [
-        "E01 Bank Export August.csv and post-takeover bank confirmation",
-        "E09 CRM Export"
+        "E07 Loans, Owner Card and Legal Problems",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
       ],
       "confidence": "high",
       "aiProposal": "classify the €70,000 villa reservation as a distribution because the villa is personally owned and no business meeting occurred.",
@@ -657,8 +657,8 @@
       "question": "Classify Owner card spending.",
       "answer": "Classify €40,000 owner-card spending as owner distribution.",
       "evidence": [
-        "E01 Bank Export August.csv and post-takeover bank confirmation",
-        "E09 CRM Export"
+        "E07 Loans, Owner Card and Legal Problems",
+        "E01 Bank Export August.csv and post-takeover bank confirmation"
       ],
       "confidence": "high",
       "aiProposal": "classify €40,000 owner-card spending as a distribution because no business purpose is evidenced.",
