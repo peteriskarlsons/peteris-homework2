@@ -709,13 +709,13 @@
       "confidence": "high",
       "aiProposal": "classify €80,000 event-delivery payroll as service COGS because it directly fulfils completed events.",
       "independentChallenge": "agreed that the event-delivery function makes the €80,000 direct cost of service.",
-      "studentReasoning": "The payroll evidence identifies €80,000 for event delivery. Because it directly fulfils completed events, it is service COGS rather than selling or administration expense.",
+      "studentReasoning": "The payroll evidence identifies €80,000 for event delivery. It belongs in service COGS because it directly fulfils completed events, but this decision only reclassifies an amount already included in the €248,000 payroll total. The underlying payroll accrual and its cash/payable effects are recorded in the payroll schedule, so this classification has no additional direct statement effect.",
       "statementEffect": {
-        "profit": -80000,
+        "profit": 0,
         "cash": 0,
         "assets": 0,
         "liabilities": 0,
-        "equity": -80000
+        "equity": 0
       },
       "changedFromAI": false
     },
@@ -1175,13 +1175,13 @@
       "confidence": "medium",
       "aiProposal": "calculate closing inventory at €112,000 from the documented cost roll-forward and disclose the count variance.",
       "independentChallenge": "agrees on the €112,000 cost roll-forward but challenges the unresolved €9,000 physical-count difference; it must remain disclosed.",
-      "studentReasoning": "The roll-forward is €80,000 opening inventory + €459,000 purchases − €405,000 consumed − €22,000 write-down = €112,000. The physical count differs by €9,000, so €112,000 is used provisionally and the variance is disclosed.",
+      "studentReasoning": "The roll-forward is €80,000 opening inventory + €459,000 purchases − €405,000 consumed − €22,000 write-down = €112,000. The physical count differs by €9,000, so €112,000 is used provisionally and the variance is disclosed. This is a closing-balance estimate, not a separate new increase in equity: the underlying inventory movements are already captured by purchases, COGS and the write-down.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
-        "assets": 112000,
+        "assets": 0,
         "liabilities": 0,
-        "equity": 112000
+        "equity": 0
       },
       "changedFromAI": false
     },
@@ -1378,13 +1378,13 @@
       "confidence": "high",
       "aiProposal": "approve only the corrected provisional accounts because €65,000 profit and €60,000 cash reconcile to the evidence.",
       "independentChallenge": "agreed that only the reconciled provisional accounts can be used before valuation while the listed uncertainties remain open.",
-      "studentReasoning": "The corrected statements reconcile to €65,000 profit and €60,000 bank cash, whereas management claimed €312,000 profit. The €247,000 profit/equity difference and unresolved disclosures mean valuation approval can only use the corrected provisional accounts.",
+      "studentReasoning": "The corrected statements reconcile to €65,000 profit and €60,000 bank cash, whereas management claimed €312,000 profit. The €247,000 difference is an analytical comparison with management’s claim, not a further accounting charge or equity entry. The unresolved disclosures mean valuation approval can only use the corrected provisional accounts.",
       "statementEffect": {
-        "profit": -247000,
+        "profit": 0,
         "cash": 0,
         "assets": 0,
         "liabilities": 0,
-        "equity": -247000
+        "equity": 0
       },
       "changedFromAI": false
     },
@@ -1504,13 +1504,13 @@
       "confidence": "high",
       "aiProposal": "reject management’s €312,000 earn-out figure and use the corrected €65,000 provisional profit.",
       "independentChallenge": "agreed that management’s €312,000 claim lacks evidence support and that valuation must use the €65,000 corrected amount.",
-      "studentReasoning": "Management’s €312,000 earn-out profit is not supported by the bank, contract, warehouse, payroll and legal evidence. The corrected €65,000 provisional profit is €247,000 lower and is the only supportable valuation basis.",
+      "studentReasoning": "Management’s €312,000 earn-out profit is not supported by the bank, contract, warehouse, payroll and legal evidence. The corrected €65,000 provisional profit is €247,000 lower. That difference is a comparison for valuation, not an additional accounting entry; the decision itself has zero direct statement effect.",
       "statementEffect": {
-        "profit": -247000,
+        "profit": 0,
         "cash": 0,
         "assets": 0,
         "liabilities": 0,
-        "equity": -247000
+        "equity": 0
       },
       "changedFromAI": false
     }
